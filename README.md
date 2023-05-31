@@ -1,16 +1,21 @@
-# Food recommendation system with S-BERT
+# S-BERT 기반 음식 및 식재료 임베딩 및 클러스터링을 활용한 음식 다양성 추천 시스템
 
 
-## Abstract
 
-## Pipeline
+## Pipeline & Abstract
 ![image](https://user-images.githubusercontent.com/111716640/233542322-0e322a80-7d49-47ed-a569-eb7050236a96.png)
 
+![image](https://github.com/seunghyeon98/S-bert-/assets/111716640/6565de38-186d-40cc-8420-1ede400d2f20)
+
+
+
+### Abstract
+레시피 데이터를 이용하여 임베딩과 클러스터링 기법을 적용하여 데이터 셋에 대한 그룹화를 진행하여 다양한 추천을 가능하게 한다.
 
 ## Dataset
 ![image](https://github.com/seunghyeon98/S-bert-/assets/111716640/2318e3fd-fbed-49fc-b9d4-a81c4a30f792)
 
-음식의 레시피에 대한 데이터는 농식품올바로의 메뉴젠을 통해 수집하였습니다.
+농촌진흥청 국립농업과학원에서 제공한 공공데이터포털의 농식품 식단관리 (메뉴젠) 음식 및 재료 정보 데이터를 가공하여 사용하였습니다.
 
 
 ## Model
