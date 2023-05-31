@@ -19,6 +19,7 @@
 
 ## Model
 * S-bert [ko-sroberta-multitask]
+
 ![image](https://github.com/seunghyeon98/S-bert-/assets/111716640/5b58db62-f853-4e79-8f01-89a39f102a97)
 
 S-bert 를 통하여 [food, ingredient1, ingredient2,...] 형식으로 음식 이름과 해당 레시피에 사용된 재료들을 
@@ -27,6 +28,7 @@ S-bert 를 통하여 [food, ingredient1, ingredient2,...] 형식으로 음식 �
 구성한 문장은 S-bert 모델을 통해 sentence -> vector 로 임베딩을 진행합니다.
 
 * K-Means
+
 ![image](https://github.com/seunghyeon98/S-bert-/assets/111716640/ce091453-fa4f-491c-8797-d1828773eb10)
 
 벡터화된 각 문장들은 K-means를 통하여 클러스터를 이루게 되고,
@@ -44,7 +46,8 @@ Query의 음식 재료와 Dataset에 있는 음식의 재료를 교집합의 갯
 재료가 겹치지 않는 선에서 음식 추천을 제안합니다.
 
 ![image](https://github.com/seunghyeon98/S-bert-/assets/111716640/af16b9cf-4cb9-4ef9-b936-9ad50d81cd86)
-[직전에 먹은 음식이 파전이라면 해당 음식을 제안합니다]
+
+<center>[직전에 먹은 음식이 파전이라면 해당 음식을 제안합니다]</center>
 
 
 ## Reference
