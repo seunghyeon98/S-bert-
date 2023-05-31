@@ -20,7 +20,11 @@
 ## Model
 * S-bert [ko-sroberta-multitask]
 
-![image](https://github.com/seunghyeon98/S-bert-/assets/111716640/5b58db62-f853-4e79-8f01-89a39f102a97)
+<!-- ![image](https://github.com/seunghyeon98/S-bert-/assets/111716640/5b58db62-f853-4e79-8f01-89a39f102a97) -->
+<p align="center">
+  <img src="https://github.com/seunghyeon98/S-bert-/assets/111716640/5b58db62-f853-4e79-8f01-89a39f102a97" alt="이미지 제목">
+</p>
+
 
 S-bert 를 통하여 [food, ingredient1, ingredient2,...] 형식으로 음식 이름과 해당 레시피에 사용된 재료들을 
 한 문장으로 데이터를 구성하였습니다.
@@ -29,7 +33,12 @@ S-bert 를 통하여 [food, ingredient1, ingredient2,...] 형식으로 음식 �
 
 * K-Means
 
-![image](https://github.com/seunghyeon98/S-bert-/assets/111716640/ce091453-fa4f-491c-8797-d1828773eb10)
+<!-- ![image](https://github.com/seunghyeon98/S-bert-/assets/111716640/ce091453-fa4f-491c-8797-d1828773eb10) -->
+
+<p align ='center'>
+  <img src ='https://github.com/seunghyeon98/S-bert-/assets/111716640/ce091453-fa4f-491c-8797-d1828773eb10'>
+</p>
+
 
 벡터화된 각 문장들은 K-means를 통하여 클러스터를 이루게 되고,
 K-means를 통해 음식이 어떤 분류에 속하는지 알 수 있게 됩니다.
@@ -38,16 +47,26 @@ K-means를 통해 음식이 어떤 분류에 속하는지 알 수 있게 됩니�
 
 * Recommendation
 
-![image](https://github.com/seunghyeon98/S-bert-/assets/111716640/a47dc0e4-5857-450c-a332-268de30280ca)
+<!-- ![image](https://github.com/seunghyeon98/S-bert-/assets/111716640/a47dc0e4-5857-450c-a332-268de30280ca) -->
+
+<p align="center">
+  <img src='https://github.com/seunghyeon98/S-bert-/assets/111716640/a47dc0e4-5857-450c-a332-268de30280ca'>
+</p>
+
 
 사용자가 직전에 소비한 음식을 입력값 (Query)을 받습니다.
 
 Query의 음식 재료와 Dataset에 있는 음식의 재료를 교집합의 갯수로 비교하여 
 재료가 겹치지 않는 선에서 음식 추천을 제안합니다.
 
-![image](https://github.com/seunghyeon98/S-bert-/assets/111716640/af16b9cf-4cb9-4ef9-b936-9ad50d81cd86)
+<!-- ![image](https://github.com/seunghyeon98/S-bert-/assets/111716640/af16b9cf-4cb9-4ef9-b936-9ad50d81cd86) -->
 
-<center>[직전에 먹은 음식이 파전이라면 해당 음식을 제안합니다]</center>
+<p align="center">
+  <img src='https://github.com/seunghyeon98/S-bert-/assets/111716640/af16b9cf-4cb9-4ef9-b936-9ad50d81cd86'>
+</p>
+<p align="center" style="font-weight: bold;">직전에 먹은 음식이 파전이라면 해당 음식을 제안합니다</p>
+
+
 
 
 ## Reference
