@@ -3,7 +3,6 @@
 
 
 ## Pipeline & Abstract
-![image](https://user-images.githubusercontent.com/111716640/233542322-0e322a80-7d49-47ed-a569-eb7050236a96.png)
 
 ![image](https://github.com/seunghyeon98/S-bert-/assets/111716640/6565de38-186d-40cc-8420-1ede400d2f20)
 
@@ -28,6 +27,7 @@ S-bert 를 통하여 [food, ingredient1, ingredient2,...] 형식으로 음식 �
 구성한 문장은 S-bert 모델을 통해 sentence -> vector 로 임베딩을 진행합니다.
 
 * K-Means
+![image](https://github.com/seunghyeon98/S-bert-/assets/111716640/ce091453-fa4f-491c-8797-d1828773eb10)
 
 벡터화된 각 문장들은 K-means를 통하여 클러스터를 이루게 되고,
 K-means를 통해 음식이 어떤 분류에 속하는지 알 수 있게 됩니다.
@@ -36,12 +36,18 @@ K-means를 통해 음식이 어떤 분류에 속하는지 알 수 있게 됩니�
 
 * Recommendation
 
-입력값으로 먹은 음식의 이름을 넣으면, 해당 음식과 재료가 겹치지 않는 선에서
-각 클러스터별로 음식을 추천하게 됩니다.
+![image](https://github.com/seunghyeon98/S-bert-/assets/111716640/a47dc0e4-5857-450c-a332-268de30280ca)
 
+사용자가 직전에 소비한 음식을 입력값 (Query)을 받습니다.
+
+Query의 음식 재료와 Dataset에 있는 음식의 재료를 교집합의 갯수로 비교하여 
+재료가 겹치지 않는 선에서 음식 추천을 제안합니다.
+
+![image](https://github.com/seunghyeon98/S-bert-/assets/111716640/af16b9cf-4cb9-4ef9-b936-9ad50d81cd86)
+[직전에 먹은 음식이 파전이라면 해당 음식을 제안합니다]
 
 
 ## Reference
-http://koreanfood.rda.go.kr/main
+[http://koreanfood.rda.go.kr/main](https://www.data.go.kr/data/15081026/openapi.do)
 
 https://huggingface.co/jhgan/ko-sroberta-multitask
